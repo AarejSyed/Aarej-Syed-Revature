@@ -1,10 +1,29 @@
+/**
+ * Challenges I completed from Revature's "Core Java" presentation
+*/
 public class CoreJavaChallenges {
+    // Runs each challenge
     public static void main(String[] args) {
+        helloWorld();
+        printingOutput();
+        operators();
+        controlFlow();
+        loops();
+        calculator();
+    }
+
+    // Hello World
+    private static void helloWorld() {
         System.out.println("CHALLENGE - HELLO WORLD\n");
 
         System.out.println("Hello World!");
-        
-        System.out.println("\nCHALLENGE - PRINTING OUTPUT\n");
+
+        System.out.println();
+    }
+
+    // Printing Output
+    private static void printingOutput() {
+        System.out.println("CHALLENGE - PRINTING OUTPUT\n");
 
         int age = 22;
         double height = 5.5;
@@ -12,7 +31,12 @@ public class CoreJavaChallenges {
 
         System.out.printf("Name: %s, Age: %d, Height: %.1f%n", name, age, height);
 
-        System.out.println("\nCHALLENGE - OPERATORS\n");
+        System.out.println();
+    }
+
+    // Operators
+    private static void operators() {
+        System.out.println("CHALLENGE - OPERATORS\n");
 
         int a = 20, b = 10;
 
@@ -27,7 +51,12 @@ public class CoreJavaChallenges {
         System.out.println("Is a greater than b? " + a_greater_than_b);
         System.out.println("Is a > b and b > 0? " + a_greater_than_b_and_b_greater_than_zero);
 
-        System.out.println("\nCHALLENGE - CONTROL FLOW\n");
+        System.out.println();
+    }
+
+    // Control Flow
+    private static void controlFlow() {
+        System.out.println("CHALLENGE - CONTROL FLOW\n");
 
         int score = 75;
         char grade;
@@ -42,7 +71,12 @@ public class CoreJavaChallenges {
 
         System.out.println("Grade: " + grade);
 
-        System.out.println("\nCHALLENGE - LOOPS\n");
+        System.out.println();
+    }
+
+    // Loops
+    private static void loops() {
+        System.out.println("CHALLENGE - LOOPS\n");
 
         System.out.print("For Loop:");
         for (int i = 1; i <= 5; i++) System.out.print(" " + i);
@@ -65,7 +99,12 @@ public class CoreJavaChallenges {
         while (k <= 5);
         System.out.println();
 
-        System.out.println("\nCHALLENGE - CALCULATOR\n");
+        System.out.println();
+    }
+
+    // Calculator
+    private static void calculator() {
+        System.out.println("CHALLENGE - CALCULATOR\n");
 
         double num1 = 7;
         double num2 = 3;
@@ -95,5 +134,7 @@ public class CoreJavaChallenges {
         }
 
         System.out.println("Thank you for using the calculator.");
+
+        System.out.println();
     }
 }
